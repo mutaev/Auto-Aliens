@@ -9,6 +9,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
   <title>Альянс авто</title>
   <link rel="stylesheet" href="css/style.css"> 
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
 </head>
 <body>
 
@@ -84,7 +88,7 @@
           <div class="header__call">
             <p class="header__call-text">Возникли вопросы? Оставьте заявку 
               и мы свяжемся с вами и поможем с вашим вопросом</p>
-            <a class="header__call-btn" href="#">Перезвоните мне</a>
+            <a class="header__call-btn" href="#form">Перезвоните мне</a>
           </div>
 
       </div>
@@ -136,27 +140,426 @@
             <img class="services__top-img" src="img/services1.svg" alt="image">
             <div class="services__top-box">
               <h5 class="services__top-cart-title">Действует скидка на 25%</h5>
-              <p class="services__top-cart-text">До конца еще 10 дней и 2 часа,
-                успейте заказать курс!</p>
+              <p class="services__top-cart-text">До конца еще <span>10 дней и 2 часа,</span> успейте заказать курс!</p>
             </div>
           </div>
           <div class="services__top-cart">
             <img class="services__top-img" src="img/services2.svg" alt="image">   
             <div class="services__top-box">
               <h5 class="services__top-cart-title">Оффлайн группы</h5>
-              <p class="services__top-cart-text">Проводиться набор оффлайн групп на будни (утро, день вечер) и выходные, точное расписание и время занятий уточняем по телефону!</p>
+              <p class="services__top-cart-text services__top-cart-text--lim">Проводиться набор оффлайн групп на будни (утро, день вечер) и выходные, точное расписание и время занятий уточняем по телефону!</p>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="services__main"></div>
+      <div class="services__main">
+
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="swiper__inner">
+                <div class="swiper__time">1.5-2 месяца</div>
+                <div class="swiper__text"></div>
+              </div>
+              <div class="swiper__inner">
+                <h3 class="swiper__title">Категория A</h3>
+                <div class="swiper__price">15 000 ₽</div>
+              </div>
+              <button class="swiper__btn">Оставить заявку</button>
+              <img class="swiper__img" src="img/motorbike.png" alt="img">
+            </div>
+
+            <div class="swiper-slide">
+              <div class="swiper__inner">
+                <div class="swiper__time">1.5-2 месяца</div>
+                <div class="swiper__text">Механика</div>
+              </div>
+              <div class="swiper__inner">
+                <h3 class="swiper__title">Категория B</h3>
+                <div class="swiper__price">16 000 ₽</div>
+              </div>
+              <button class="swiper__btn">Оставить заявку</button>
+              <img class="swiper__img" src="img/car.png" alt="img">
+            </div>
+
+            <div class="swiper-slide">
+              <div class="swiper__inner">
+                <div class="swiper__time">2-2.5 месяца</div>
+                <div class="swiper__text">Механика</div>
+              </div>
+              <div class="swiper__inner">
+                <h3 class="swiper__title">Категория C</h3>
+                <div class="swiper__price">21 000 ₽</div>
+              </div>
+              <button class="swiper__btn">Оставить заявку</button>
+              <img class="swiper__img" src="img/delivery-truck.png" alt="img">
+            </div>
+
+            <div class="swiper-slide">
+              <div class="swiper__inner">
+                <div class="swiper__time">2.5-3 месяца</div>
+                <div class="swiper__text">Механика</div>
+              </div>
+              <div class="swiper__inner">
+                <h3 class="swiper__title">Категория D</h3>
+                <div class="swiper__price">26 000 ₽</div>
+              </div>
+              <button class="swiper__btn">Оставить заявку</button>
+              <img class="swiper__img" src="img/group.png" alt="img">
+            </div>
+    
+            <div class="swiper-slide">
+              <div class="swiper__inner">
+                <div class="swiper__time">2-2.5 месяца</div>
+                <div class="swiper__text">Механика</div>
+              </div>
+              <div class="swiper__inner">
+                <h3 class="swiper__title">Категория C</h3>
+                <div class="swiper__price">21 000 ₽</div>
+              </div>
+              <button class="swiper__btn">Оставить заявку</button>
+              <img class="swiper__img" src="img/delivery-truck.png" alt="img">
+            </div>
+
+            <div class="swiper-slide">
+              <div class="swiper__inner">
+                <div class="swiper__time">2.5-3 месяца</div>
+                <div class="swiper__text">Механика</div>
+              </div>
+              <div class="swiper__inner">
+                <h3 class="swiper__title">Категория D</h3>
+                <div class="swiper__price">26 000 ₽</div>
+              </div>
+              <button class="swiper__btn">Оставить заявку</button>
+              <img class="swiper__img" src="img/group.png" alt="img">
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
 
       <div class="services__description">
+        <div class="services__description-box">
+          <h3 class="services__description-title">Только подробное, доходчивое объяснение теории вождения</h3>
+          <p class="services__description-text">Имеем личный кабинет для каждого ученика. Два раза в неделю проводяться вебинары, где ученики могут онлайн общаться и задавать вопросы, после каждой темы поводяться тесты, с помощью которых преподаватель выявляет проблемные темы и прорабатывает их с учеником до хорошего результата. <span>Помимо этого, сопровождаем на экзаменах ГИБДД, до положительных результатов!</span></p>
+          <p class="services__description-text services__description-text--margin"> Чтобы ученики успешно сдавали экзамен теории вождения автошколы, мы поделили информационный курс на 4 категории:</p>
+          <ul class="services__description-list">
+            <li class="services__description-list-item">Правила дорожного движения. Вы узнаете ПДД, а также о том, как действовать в различных дорожно-транспортных ситуациях.</li>
+            <li class="services__description-list-item">Обеспечение безопасности. В эту часть входит разбор возможных проблемных и критических ситуаций, которые могут возникнуть во время пути.</li>
+            <li class="services__description-list-item">Срочная, неотложная медицинская помощь. Водитель должен уметь оказывать первую медицинскую помощь пострадавшим в случае ДТП.</li>
+            <li class="services__description-list-item">Техническое устройство транспортного средства. Вы узнаете о том, какие неполадки случаются с ТС, и как их устранить. Мы также расскажем об основных принципах работы автомобиля, мотоцикла.</li>
+          </ul>
+        </div>
 
+        <div class="services__medical">
+          <img class="services__medical-img" src="img/medical.png" alt="img">
+          <h4 class="services__medical-title">Мед. комиссия</h4>
+          <p class="services__medical-text">Поможем пройти мед. комиссию 
+            в нашем Медцентре даже если нужна только справка, быстро, четко, без усилий, с комфортом! </p>
+          <div class="services__medical-price">4 000 ₽</div>
+          <p class="services__medical-text-info">По поводу мед комиссии звоните по телефону</p>
+          <a class="services__medical-tel" href="tel:+79017176939">+8(901)717-69-39</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="instructors">
+    <div class="container">
+      <div class="swiper instructors__inner">
+        <h2 class="instructors__title title">Наши инструкторы станут<br> <span>вашей опорой до момента получения прав</span></h2>
+        <img class="instructors__dec" src="img/instr-dec.svg" alt="image">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide instructors__slide">
+            <img class="instructors__img" src="img/instr1.png" alt="image">
+            <h5 class="instructors__slide-title">Дырман Николай</h5>
+            <ul class="instructors__list">
+              <li class="instructors__item">
+                <span>25 лет</span> водительского стажа
+              </li>
+              <li class="instructors__item">
+                <span>9 лет</span> преподавательского стажа
+              </li>
+              <li class="instructors__item">
+                <span>1384</span> ученика получили права
+              </li>
+            </ul>
+          </div>
+
+          <div class="swiper-slide instructors__slide">
+            <img class="instructors__img" src="img/instr2.png" alt="image">
+            <h5 class="instructors__slide-title">Дырман Николай</h5>
+            <ul class="instructors__list">
+              <li class="instructors__item">
+                <span>25 лет</span> водительского стажа
+              </li>
+              <li class="instructors__item">
+                <span>9 лет</span> преподавательского стажа
+              </li>
+              <li class="instructors__item">
+                <span>1384</span> ученика получили права
+              </li>
+            </ul>
+          </div>
+
+          <div class="swiper-slide instructors__slide">
+            <img class="instructors__img" src="img/instr3.png" alt="image">
+            <h5 class="instructors__slide-title">Дырман Николай</h5>
+            <ul class="instructors__list">
+              <li class="instructors__item">
+                <span>25 лет</span> водительского стажа
+              </li>
+              <li class="instructors__item">
+                <span>9 лет</span> преподавательского стажа
+              </li>
+              <li class="instructors__item">
+                <span>1384</span> ученика получили права
+              </li>
+            </ul>
+          </div>
+
+          <div class="swiper-slide instructors__slide">
+            <img class="instructors__img" src="img/instr4.png" alt="image">
+            <h5 class="instructors__slide-title">Дырман Николай</h5>
+            <ul class="instructors__list">
+              <li class="instructors__item">
+                <span>25 лет</span> водительского стажа
+              </li>
+              <li class="instructors__item">
+                <span>9 лет</span> преподавательского стажа
+              </li>
+              <li class="instructors__item">
+                <span>1384</span> ученика получили права
+              </li>
+            </ul>
+          </div>
+
+          <div class="swiper-slide instructors__slide">
+            <img class="instructors__img" src="img/instr1.png" alt="image">
+            <h5 class="instructors__slide-title">Дырман Николай</h5>
+            <ul class="instructors__list">
+              <li class="instructors__item">
+                <span>25 лет</span> водительского стажа
+              </li>
+              <li class="instructors__item">
+                <span>9 лет</span> преподавательского стажа
+              </li>
+              <li class="instructors__item">
+                <span>1384</span> ученика получили права
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews">
+    <div class="container">
+      <h3 class="reviews__title">Что говорят о нас клиенты</h3>
+  
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide reviews__slider">
+            <div class="reviews__inner">
+              <img class="reviews__avatar" src="img/ava.png" alt="image">
+              <div class="reviews__box">
+                <div class="reviews__name">Николай Фирсов</div>
+                <span class="reviews__date">5 ноября 2022</span>
+              </div>
+            </div>
+            <p class="reviews__text">
+              Центр слуха Ю-МЁД на Бронницкой 5, это хорошо оснащённая клиника со специалистами высокого класса. В клинике царят знание, опыт, отзывчивость и уважение к пациентам, а также ответственность за результаты своего труда. Всеми этими качествами обладает лор, логопед, сурдолог Татьяна Витальевна Легостаева, которая с использованием слухового аппарата Phonak Audeo B-K достигла почти 100%...
+            </p>
+          </div>
+          <div class="swiper-slide reviews__slider">
+            <div class="reviews__inner">
+              <img class="reviews__avatar" src="img/ava.png" alt="image">
+              <div class="reviews__box">
+                <div class="reviews__name">Николай Фирсов</div>
+                <span class="reviews__date">5 ноября 2022</span>
+              </div>
+            </div>
+            <p class="reviews__text">
+              Центр слуха Ю-МЁД на Бронницкой 5, это хорошо оснащённая клиника со специалистами высокого класса. В клинике царят знание, опыт, отзывчивость и уважение к пациентам, а также ответственность за результаты своего труда. Всеми этими качествами обладает лор, логопед, сурдолог Татьяна Витальевна Легостаева, которая с использованием слухового аппарата Phonak Audeo B-K достигла почти 100%...
+            </p>
+          </div>
+          <div class="swiper-slide reviews__slider">
+            <div class="reviews__inner">
+              <img class="reviews__avatar" src="img/ava.png" alt="image">
+              <div class="reviews__box">
+                <div class="reviews__name">Николай Фирсов</div>
+                <span class="reviews__date">5 ноября 2022</span>
+              </div>
+            </div>
+            <p class="reviews__text">
+              Центр слуха Ю-МЁД на Бронницкой 5, это хорошо оснащённая клиника со специалистами высокого класса. В клинике царят знание, опыт, отзывчивость и уважение к пациентам, а также ответственность за результаты своего труда. Всеми этими качествами обладает лор, логопед, сурдолог Татьяна Витальевна Легостаева, которая с использованием слухового аппарата Phonak Audeo B-K достигла почти 100%...
+            </p>
+          </div>
+          <div class="swiper-slide reviews__slider">
+            <div class="reviews__inner">
+              <img class="reviews__avatar" src="img/ava.png" alt="image">
+              <div class="reviews__box">
+                <div class="reviews__name">Николай Фирсов</div>
+                <span class="reviews__date">5 ноября 2022</span>
+              </div>
+            </div>
+            <p class="reviews__text">
+              Центр слуха Ю-МЁД на Бронницкой 5, это хорошо оснащённая клиника со специалистами высокого класса. В клинике царят знание, опыт, отзывчивость и уважение к пациентам, а также ответственность за результаты своего труда. Всеми этими качествами обладает лор, логопед, сурдолог Татьяна Витальевна Легостаева, которая с использованием слухового аппарата Phonak Audeo B-K достигла почти 100%...
+            </p>
+          </div>
+          <div class="swiper-slide reviews__slider">
+            <div class="reviews__inner">
+              <img class="reviews__avatar" src="img/ava.png" alt="image">
+              <div class="reviews__box">
+                <div class="reviews__name">Николай Фирсов</div>
+                <span class="reviews__date">5 ноября 2022</span>
+              </div>
+            </div>
+            <p class="reviews__text">
+              Центр слуха Ю-МЁД на Бронницкой 5, это хорошо оснащённая клиника со специалистами высокого класса. В клинике царят знание, опыт, отзывчивость и уважение к пациентам, а также ответственность за результаты своего труда. Всеми этими качествами обладает лор, логопед, сурдолог Татьяна Витальевна Легостаева, которая с использованием слухового аппарата Phonak Audeo B-K достигла почти 100%...
+            </p>
+          </div>
+          <div class="swiper-slide reviews__slider">
+            <div class="reviews__inner">
+              <img class="reviews__avatar" src="img/ava.png" alt="image">
+              <div class="reviews__box">
+                <div class="reviews__name">Николай Фирсов</div>
+                <span class="reviews__date">5 ноября 2022</span>
+              </div>
+            </div>
+            <p class="reviews__text">
+              Центр слуха Ю-МЁД на Бронницкой 5, это хорошо оснащённая клиника со специалистами высокого класса. В клинике царят знание, опыт, отзывчивость и уважение к пациентам, а также ответственность за результаты своего труда. Всеми этими качествами обладает лор, логопед, сурдолог Татьяна Витальевна Легостаева, которая с использованием слухового аппарата Phonak Audeo B-K достигла почти 100%...
+            </p>
+          </div>
+          
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
       </div>
 
     </div>
   </section>
+
+  <section class="amenities">
+    <div class="container">
+      <div class="amenities__content">
+
+        <h2 class="amenities__title title">Предоставляем<br> <span>широкий спектр услуг</span></h2>
+        <div class="amenities__inner">
+          <div class="amenities__grids">
+            <div class="amenities__item">
+              <img class="amenities__icon" src="img/grid1.png" alt="image">
+              <h5 class="amenities__item-title">Обучение вождению</h5>
+              <p class="amenities__text">Обучении теории и практики во всех районах Москвы</p>
+            </div>
+            <div class="amenities__item">
+              <img class="amenities__icon" src="img/grid2.png" alt="image">
+              <h5 class="amenities__item-title">Обучение вождению</h5>
+              <p class="amenities__text">Обучении теории и практики во всех районах Москвы</p>
+            </div>
+            <div class="amenities__item">
+              <img class="amenities__icon" src="img/grid3.png" alt="image">
+              <h5 class="amenities__item-title">Обучение вождению</h5>
+              <p class="amenities__text">Обучении теории и практики во всех районах Москвы</p>
+            </div>
+            <div class="amenities__item">
+              <img class="amenities__icon" src="img/grid4.png" alt="image">
+              <h5 class="amenities__item-title">Обучение вождению</h5>
+              <p class="amenities__text">Обучении теории и практики во всех районах Москвы</p>
+            </div>
+            <div class="amenities__item">
+              <img class="amenities__icon" src="img/grid5.png" alt="image">
+              <h5 class="amenities__item-title">Обучение вождению</h5>
+              <p class="amenities__text">Обучении теории и практики во всех районах Москвы</p>
+            </div>
+            <div class="amenities__item">
+              <img class="amenities__icon" src="img/grid6.png" alt="image">
+              <h5 class="amenities__item-title">Обучение вождению</h5>
+              <p class="amenities__text">Обучении теории и практики во всех районах Москвы</p>
+            </div>
+          </div>
+  
+          <div class="amenities__box">
+            <img class="amenities__img" src="img/amenities-bg.png" alt="image">  
+            <form class="form amenities__form">
+              <h3 class="form__title" id="form">Заполните данные и мы свяжемся с вами!</h3>
+              <input class="form__input" type="text" placeholder="Ваше имя">
+              <input class="form__input form__input--margin" type="tel" placeholder="+7 ___ ___ __ __">
+              <button  class="form__btn" type="submit">Оставить заявку</button>
+              <p class="form__text">Наш менеджер свяжеться с вами и назначит пробный урок</p>
+            </form>
+          </div>
+  
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="info">
+        <div class="info__item">
+          <a class="info__logo" href="#">
+            <img src="img/logo.svg" alt="logo">
+          </a>
+        </div>
+
+        <div class="info__item">
+          <p class="info__text">Автошкола высшей квалификации для подготовки молодых водителей</p>
+        </div>
+
+        <div class="info__item">
+          <img class="info__icon" src="img/clock.svg" alt="icon">
+          <div class="info__box">
+            <span class="info__item-title">График работы</span>
+            <div class="info__item-text">с 11:00 до 20:00 Пн-Пт</div>
+          </div>
+        </div>
+
+        <div class="info__item">
+          <img class="info__icon" src="img/email.svg" alt="icon">
+          <div class="info__box">
+            <span class="info__item-title">Наша почта</span>
+            <a class="info__item-text" href="mailto:Alyansavto@internet.ru">Alyansavto@internet.ru</a>
+          </div>
+        </div>
+
+        <div class="info__item">
+          <img class="info__icon" src="img/message-ic.svg" alt="">
+          <div class="info__box">
+            <span class="info__item-title">Наша почта</span>
+            <a class="info__item-mess" href="">
+              <img class="info__item-mess" src="img/whatsapp.png" alt="icon">
+            </a>
+            <a class="info__item-mess" href="">
+              <img class="info__item-mess" src="img/telegram.png" alt="icon">
+            </a>
+          </div>
+        </div>
+
+        <div class="info__item info__item-block">
+          <a class="info__phone" href="tel:+79623639456">+8(962) 363-94-56</a>
+          <a class="info__phone" href="tel:+79777660181">+8(977) 766-01-81</a>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="JS/main.js"></script>
 </body>
 </html>
