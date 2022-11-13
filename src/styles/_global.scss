@@ -1,0 +1,75 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000;
+  overflow-x: hidden;
+  min-width: 320px;
+}
+
+.container {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+//burger
+.header__nav {
+	position: absolute;
+	right: 36px;
+	display: none;
+	z-index: 3;
+}
+.header__menu {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+.header__menu li {
+  margin-left: 15px;
+  margin-bottom: 19px;
+}
+.menu__list-link--panel{
+  font-size: 18px !important;
+  color: aliceblue !important;
+  
+}
+//burger
+
+.slick-dots{
+  margin-top: 20px;
+  display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	li{
+		margin: 0 5px;
+	}
+	button{
+		border: none;
+		width: 21px;
+		height: 21px;
+		border-radius: 50%;
+		padding: 0;
+		font-size: 0;
+    border: 1px solid #bdb8b8;
+    background: transparent;
+	}
+	li.slick-active{
+		button{
+			background: linear-gradient(90deg, #5433FF 0%, #20BDFF 50%, #259EA6 100%);
+      border: transparent;
+		}
+	}
+}
+
+.reviews__stars {
+  display: flex;
+  margin-bottom: 4px;
+}
