@@ -182,7 +182,7 @@
               <h3 class="services__slider-title">Категория A</h3>
               <div class="services__slider-price">15 000 ₽</div>
             </div>
-            <button class="services__slider-btn">Оставить заявку</button>
+            <button class="services__slider-btn popup-open">Оставить заявку</button>
             <img class="services__slider-img" src="img/motorbike.png" alt="img">
           </div>
 
@@ -195,7 +195,7 @@
               <h3 class="services__slider-title">Категория B</h3>
               <div class="services__slider-price">16 000 ₽</div>
             </div>
-            <button class="services__slider-btn">Оставить заявку</button>
+            <button class="services__slider-btn popup-open">Оставить заявку</button>
             <img class="services__slider-img" src="img/car.png" alt="img">
           </div>
 
@@ -208,7 +208,7 @@
               <h3 class="services__slider-title">Категория C</h3>
               <div class="services__slider-price">21 000 ₽</div>
             </div>
-            <button class="services__slider-btn">Оставить заявку</button>
+            <button class="services__slider-btn popup-open">Оставить заявку</button>
             <img class="services__slider-img" src="img/delivery-truck.png" alt="img">
           </div>
 
@@ -221,7 +221,7 @@
               <h3 class="services__slider-title">Категория D</h3>
               <div class="services__slider-price">26 000 ₽</div>
             </div>
-            <button class="services__slider-btn">Оставить заявку</button>
+            <button class="services__slider-btn popup-open">Оставить заявку</button>
             <img class="services__slider-img" src="img/group.png" alt="img">
           </div>
           
@@ -234,7 +234,7 @@
               <h3 class="services__slider-title">Категория D</h3>
               <div class="services__slider-price">26 000 ₽</div>
             </div>
-            <button class="services__slider-btn">Оставить заявку</button>
+            <button class="services__slider-btn popup-open">Оставить заявку</button>
             <img class="services__slider-img" src="img/group.png" alt="img">
           </div>
 
@@ -247,7 +247,7 @@
               <h3 class="services__slider-title">Категория D</h3>
               <div class="services__slider-price">26 000 ₽</div>
             </div>
-            <button class="services__slider-btn">Оставить заявку</button>
+            <button class="services__slider-btn popup-open">Оставить заявку</button>
             <img class="services__slider-img" src="img/group.png" alt="img">
           </div>
         </div>
@@ -567,7 +567,18 @@
   </footer>
 
 
+  <div class="popup-fade">
+    <div class="popup">
+      <form class="popup__form">
+        <h3 class="form__title">Заполните данные и мы свяжемся с вами!</h3>
+        <input class="form__input" type="text" placeholder="Ваше имя" style="width: 100%;">
+        <input class="form__input form__input--margin" type="tel" placeholder="+7 ___ ___ __ __" style="width: 100%;">
+        <button  class="form__btn" type="submit" style="width: 100%;">Оставить заявку</button>
+      </form>
 
+      <button class="popup-close" style="max-width: 30px ;"><img src="img/close.png" alt="icon close"></button>
+    </div>		
+  </div>
   
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="js/main.min.js"></script>  

@@ -274,4 +274,21 @@
     margin-left: 0;
     padding: 0 8px;
   }
+  .instructors{
+    margin-bottom: 39px;
+  }
+}
+
+@media (max-width: 460px) {
+  .popup {
+    left: 62%;
+    max-width: 300px;
+  } 
+}
+
+@media (max-width: 360px) {
+  .popup {
+    left: 66%;
+    max-width: 300px;
+  } 
 }
