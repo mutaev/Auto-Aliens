@@ -59,7 +59,6 @@ function clean() {
 // минификация html
 function html() {
     return gulp.src(paths.html.src)
-    .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(size({
         showFiles: true
     }))
@@ -76,9 +75,6 @@ function styles(){
         .pipe(autoprefixer({
 			cascade: false
 		}))
-        .pipe(cleanCSS({
-            level: 2
-        }))
         .pipe(rename({
             basename: 'main',
             suffix: '.min'
