@@ -55,6 +55,14 @@
   .form__btn{
     margin-bottom: 15px;
   }
+  .services__slider-title {
+    font-size: 22px;
+
+  }
+  .services__slider-price {
+    font-size: 22px;
+
+  }
 }
 
 @media (max-width: 1010px) {
@@ -284,6 +292,9 @@
     left: 62%;
     max-width: 300px;
   } 
+  .services__slider-item{
+    min-width: 300px;
+  }
 }
 
 @media (max-width: 360px) {
@@ -291,4 +302,7 @@
     left: 66%;
     max-width: 300px;
   } 
+  .services__slider-price, .services__slider-title {
+    font-size: 19px;
+  }
 }

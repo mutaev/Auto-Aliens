@@ -20,8 +20,6 @@
   align-items: flex-start;
   gap: 10px;
 }
-.info__logo {
-}
 .info__text {
   color: #AAAAAA;
   line-height: 130%;
@@ -30,8 +28,6 @@
 .info__icon {
   width: 25px;
   height: 25px;
-}
-.info__box {
 }
 .info__item-title {
   line-height: 130%;
@@ -198,8 +194,6 @@
   align-items: center;
   gap: 45px;
 }
-.header__item {
-}
 .header__inner{
   position: relative;
 }
@@ -295,6 +289,7 @@
   max-width: 354px;
   background: #F5FFFF;
   border-radius: 15px;
+  min-width: 354px;
   padding: 32px 25px 0 25px;
 
 }
@@ -613,5 +608,7 @@
 .footer{
   padding: 30px 0;
 }
+
+
 
 @import 'media';
